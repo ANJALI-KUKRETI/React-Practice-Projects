@@ -3,6 +3,7 @@ type PersonProps = {
     first: string;
     last: string;
   };
+  age?: number;
 };
 const Person = (props: PersonProps) => {
   return (
