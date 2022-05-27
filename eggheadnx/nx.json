@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "npmScope": "eggheadnx",
+  "npmScope": "./",
   "affected": {
     "defaultBase": "master"
   },
@@ -24,7 +24,7 @@
           "test",
           "e2e"
         ],
-        "accessToken": "Y2Q5MDQ3YTEtMDk5OS00MzI0LWJkMzYtZDg0NDM4OTlmMTQzfHJlYWQtd3JpdGU="
+        "accessToken": "YTg1NzQwMWEtNmVjMi00ODdmLWI1ODAtNTRlMmRjODJhMmY2fHJlYWQtd3JpdGU="
       }
     }
   },
