@@ -3,10 +3,12 @@
   "version": 2,
   "projects": {
     "api": "apps/api",
+    "api-util-interfaces": "libs/api/util-interfaces",
     "store": "apps/store",
     "store-e2e": "apps/store-e2e",
     "store-feature-game-detail": "libs/store/feature-game-detail",
     "store-ui-shared": "libs/store/ui-shared",
+    "store-ui-shared-e2e": "apps/store-ui-shared-e2e",
     "store-util-formatters": "libs/store/util-formatters"
   }
 }

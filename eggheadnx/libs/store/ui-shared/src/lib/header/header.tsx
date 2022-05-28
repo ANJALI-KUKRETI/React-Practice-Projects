@@ -16,14 +16,16 @@ const useStyles = makeStyles((theme: Theme) => ({
   },
 }));
 /* eslint-disable-next-line */
-export interface HeaderProps {}
+export interface HeaderProps {
+  title: string;
+}
 
-export function Header() {
+export function Header(props: HeaderProps) {
   const classes = useStyles();
   return (
     <AppBar position="static">
       <Toolbar>
-        <Typography variant="h6">Board Game Hoard</Typography>
+        <Typography variant="h6">{props.title}</Typography>
       </Toolbar>
     </AppBar>
   );

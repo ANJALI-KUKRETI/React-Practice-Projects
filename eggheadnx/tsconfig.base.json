@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@.//api/util-interfaces": ["libs/api/util-interfaces/src/index.ts"],
       "@.//store/feature-game-detail": [
         "libs/store/feature-game-detail/src/index.ts"
       ],
